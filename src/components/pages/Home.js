@@ -3,7 +3,7 @@ import Videos from "../Videos";
 function Home() {
     return (
         <div>
-            <Videos/>
+            <Videos></Videos>
         </div>
     )
 }
