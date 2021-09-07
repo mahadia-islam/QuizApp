@@ -1,11 +1,13 @@
+import accountClasses from './../styles/Account.module.css';
+
 function Account() {
     return (
-        <div class="account">
-            <span class="material-icons-outlined" title="Account">
+        <div className={accountClasses.account}>
+            <span className="material-icons-outlined" title="Account">
                 account_circle
             </span>
             <a href="signup.html">Signup</a>
-            <span class="material-icons-outlined" title="Logout"> logout </span>
+            <span className="material-icons-outlined" title="Logout"> logout </span>
         </div>
     )
 }

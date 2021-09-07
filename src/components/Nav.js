@@ -1,12 +1,14 @@
 import Account from './Account';
+import navClasses from './../styles/Nav.module.css';
+import logo from './../asset/image/logo-bg.png';
 
 function Nav() {
     return (
-        <nav class="nav">
+        <nav className={navClasses.nav}>
             <ul>
                 <li>
-                    <a href="index.html" class="brand">
-                        <img src="./images/logo-bg.png" alt="Learn with Sumit Logo" />
+                    <a href="index.html" className={navClasses.brand}>
+                        <img src={logo} alt="Learn with Sumit Logo" />
                         <h3>Learn with Sumit</h3>
                     </a>
                 </li>
