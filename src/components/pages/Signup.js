@@ -3,14 +3,15 @@ import Form from "../Form";
 import TextInput from './../TextInput';
 import Checkbox from "../Checkbox";
 import Button from "../Button";
+import image from './../../asset/image/signup.svg';
 
 function Signup() {
     return (
         <div>
             <h1>Create an account</h1>
             <div className='column'>
-                <Illustration />
-                <Form>
+                <Illustration image={image}/>
+                <Form className='signup'>
                     <TextInput
                         icon="person"
                         type="text"

@@ -1,7 +1,6 @@
 import classes from './../styles/Illustration.module.css';
-import image from './../asset/image/signup.svg';
 
-function Illustration() {
+function Illustration({image}) {
     return (
         <div className={classes.illustration}>
             <img src={image} alt="Signup" />

@@ -1,8 +1,8 @@
 import classes from './../styles/Form.module.css';
 
-function Form({ children}) {
+function Form({ children,className }) {
     return (
-        <form className={`${classes.signup} ${classes.form}`}>
+        <form className={`${className} ${classes.form}`}>
             {children}
         </form> 
     )

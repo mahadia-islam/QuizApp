@@ -1,6 +1,6 @@
-function Checkbox({text}) {
+function Checkbox({text,className}) {
     return (
-        <label>
+        <label className={className}>
             <input type="checkbox" />
             <span>{text}</span>
         </label>
