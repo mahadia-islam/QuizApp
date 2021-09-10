@@ -1,10 +1,10 @@
 import classes from './../styles/Button.module.css';
 
-function Button({ text }) {
+function Button({ children,classNames,...rest }) {
     return (
-        <div className={classes.button}>
-            <span>{text}</span>
-        </div>
+        <button className={`${classes.button} ${classNames}`} {...rest}>
+            {children}
+        </button>
     )
 }
 

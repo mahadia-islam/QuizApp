@@ -1,16 +1,17 @@
 import Account from './Account';
 import navClasses from './../styles/Nav.module.css';
 import logo from './../asset/image/logo-bg.png';
+import { Link } from 'react-router-dom';
 
 function Nav() {
     return (
         <nav className={navClasses.nav}>
             <ul>
                 <li>
-                    <a href="index.html" className={navClasses.brand}>
+                    <Link to="/" className={navClasses.brand}>
                         <img src={logo} alt="Learn with Sumit Logo" />
                         <h3>Learn with Sumit</h3>
-                    </a>
+                    </Link>
                 </li>
             </ul>
             <Account/>

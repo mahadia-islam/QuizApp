@@ -25,6 +25,7 @@
   gap: 10px;
   cursor: pointer;
   user-select: none;
+  float: right;
 }
 
 .floatingBtn:hover {
